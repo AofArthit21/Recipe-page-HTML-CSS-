@@ -1,0 +1,126 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+    
+      font-family: "Outfit", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+    
+}
+.container{
+    background-color: hsl(0, 0%, 100%) ;
+    border: solid white 5px;
+    border-radius: 20px;
+    width: 650px;
+    margin: 40px;
+    margin-left: 600px;
+    padding: 20px;
+}
+img{
+    border: solid white;
+    border-radius: 20px;
+    height: 300px;
+    width: 640px;
+}
+p{
+    font-size: 16px;
+}
+.section-1{
+    background-color:rgb(250, 227, 249);
+    border: solid white;
+    border-radius: 20px;
+    line-height: 2;
+    padding-left: 10px;
+    
+}
+h3{
+    color: hsl(332, 51%, 32%);
+    padding-left: 15px;
+    line-height: 0.5;
+    padding-top: 10px;
+}
+h2{
+    color: hsl(14, 45%, 36%);
+}
+.ul-1 li{
+    color: hsl(332, 51%, 32%);
+}
+.p01{
+    display: inline;
+    color: #000;
+}
+.ul-2{
+    padding-left: 18px;
+    color: hsl(14, 45%, 36%);
+}
+.ul-2 li{
+    padding-left: 0px;
+    line-height: 2;
+}
+.ol-1{
+    padding-left: 18px;
+    line-height: 1.8;
+    color: hsl(14, 45%, 36%);
+}
+
+
+.space-1{
+    margin-left: 30px;
+    word-spacing: 245px;
+}
+.space-2{
+    margin-left: 30px;
+    word-spacing: 260px;
+}
+.space-3{
+    margin-left: 30px;
+    word-spacing: 250px;
+}
+.space-4{
+    margin-left: 30px;
+    word-spacing: 275px;
+}
+h1,h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media screen and (max-width: 767px) and (min-width:320px) {
+    /* For mobile phones: */
+    body{
+        background-color: white;
+    }
+    .container{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+    .img{
+        width: 100%;
+        border: none;
+        border-radius: 0%;
+    }
+    .space-1{
+        margin-left: 30px;
+        word-spacing: 105px;
+    }
+    .space-2{
+        margin-left: 30px;
+        word-spacing: 120px;
+    }
+    .space-3{
+        margin-left: 30px;
+        word-spacing: 110px;
+    }
+    .space-4{
+        margin-left: 30px;
+        word-spacing: 135px;
+    }
+}
+@media screen and (max-width:1440px) and (min-width:768px) {
+
+    .container{
+        margin-left: 150px;
+    }
+}
